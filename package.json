@@ -1,0 +1,19 @@
+{
+  "name": "my-site",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerasimosgakis/my-site.git"
+  },
+  "author": "Gerasimos Gakis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gerasimosgakis/my-site/issues"
+  },
+  "homepage": "https://github.com/gerasimosgakis/my-site#readme"
+}
