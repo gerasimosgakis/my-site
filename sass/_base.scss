@@ -1,0 +1,76 @@
+// COLOUR VARIABLES
+$color-primary: #bb4545;
+$color-primary-dark: #a53737;
+
+// FONT VARIABLES
+$font-primary: "Roboto", "sans-serif";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5; // 10px / 16px = 62.5% => 1rem = 10px
+}
+
+body {
+  font-family: $font-primary;
+  color: #fff;
+}
+
+.container {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(#000, 0.9),
+    rgba(#000, 1)
+  );
+  background: cover;
+  height: 100vh;
+  padding: 0.8rem;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 5rem;
+
+  &__img {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+.story {
+  text-align: center;
+  margin-top: 5rem;
+
+  &__text {
+    font-size: 1.4rem;
+  }
+}
+
+.skills {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  grid-gap: 1rem;
+  justify-content: center;
+
+  li {
+    list-style: none;
+    background-color: $color-primary;
+    border-radius: 3px;
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+}
+
+.buttons {
+  margin-top: 5rem;
+  text-align: center;
+}

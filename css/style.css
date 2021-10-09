@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5; }
+
+body {
+  font-family: "Roboto", "sans-serif";
+  color: #fff; }
+
+.container {
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.9), black);
+  background: cover;
+  height: 100vh;
+  padding: 0.8rem; }
+
+.logo {
+  text-align: center;
+  margin-top: 5rem; }
+  .logo__img {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem; }
+
+.story {
+  text-align: center;
+  margin-top: 5rem; }
+  .story__text {
+    font-size: 1.4rem; }
+
+.skills {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  grid-gap: 1rem;
+  justify-content: center; }
+  .skills li {
+    list-style: none;
+    background-color: #bb4545;
+    border-radius: 3px;
+    padding: 1rem 2rem;
+    text-align: center; }
+
+.buttons {
+  margin-top: 5rem;
+  text-align: center; }
+
+h-1 {
+  font-size: 1.6rem; }
+
+.btn {
+  background-color: #bb4545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  transition: all 0.2s; }
+  .btn:hover {
+    background-color: #a53737;
+    transform: translateY(-2px); }
+
+a {
+  text-decoration: none; }
